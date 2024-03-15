@@ -1,0 +1,43 @@
+.about{
+padding-top: 70px;
+padding-bottom: 70px;
+.wrapper{
+   
+    .abt_img{
+        max-width: 500px;
+        img{
+            width: 100%;
+            border-radius: 8px;
+        }
+    }
+    .abt_left{
+        font-size: 16px;
+        line-height: 1.9;
+padding-top: 100px;
+margin-bottom: 50px;
+        &::first-letter {
+            font-size: 28px;
+            font-weight: 700;
+            color: $color-text;
+            font-family: 'Times New Roman', Times, serif;
+          }
+    }
+    .abt_points{
+        display: flex;
+        justify-content: space-between;
+        padding-right: 150px;
+        padding-top: 30px;
+        ul{
+            padding-left: 0;
+            list-style: none;
+            li{
+                margin-bottom: 20px;
+            }
+        }
+        
+    }
+}
+
+}
+
+

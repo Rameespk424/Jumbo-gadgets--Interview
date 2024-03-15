@@ -1,0 +1,76 @@
+// Font_family
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+//Global
+
+
+
+
+
+//font
+$font-text:'Bungee', cursive;
+$font-third:'Overpass Mono', monospace;
+$font-default:'Work Sans', sans-serif;
+
+//colors
+
+
+$color-brand: #e5713b;
+$color-brand2: #5FED83;
+$color-brand3:#ffc107;
+$color-black:#000000;
+$color-white:#fff;
+$color-text:#505050;
+$color-grey:#b8b8b8;
+$color-green:#28a745;
+$color-button:#0069d9;
+$color-footer:#181818;
+$color-grey:#6c6a74;
+$color-hover:#e9c939;
+$color-border:#dedede;
+$color-transp:#3a3a3ab3;
+$color-h-bg:#f4f2f8;
+
+$select-border-color: #ccc;
+$select-focus-color: green;
+
+//font-size
+
+
+$font-h1:36px;
+$font-h2: 18px;
+$font-h3:36px;
+$font-h4: 25px;
+$font-h5:36px;
+$font-h6: 18px;
+$font-size-banner:60px;
+$font-heading:46px;
+$font-sub-heading:28px;
+$font-text:14px;
+
+
+
+
+
+
+
+
+// @import './normalize';
+@import './common';
+// @import './elements';
+
+
+@import './components/components';
+// @import './layout/layouts';
+
+
+@import './pages/index';
+@import './components/buttons';
+@import './layouts/navigation';
+@import './layouts/header';
+@import './layouts/banner';
+@import './layouts/footer';
+
+@import './pages/about';
+@import './pages/choose_us';
